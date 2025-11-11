@@ -71,7 +71,7 @@ function TodoApp() {
         <div className="text-center mb-8">
           <div className="flex items-center justify-center gap-3 mb-4">
             <SquareCheckBig className="h-8 w-8 text-gray-950" />
-            <h1 className="md:text-3xl text-lg text-gray-950  flex items-center gap-2">
+            <h1 className="md:text-3xl text-lg font-semibold md:font-normal text-gray-950  flex items-center gap-2">
               Todo Management
               {teamName && (
                 <span
