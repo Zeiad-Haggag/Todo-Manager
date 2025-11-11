@@ -143,7 +143,7 @@ function TodoApp() {
                 className="flex items-center gap-3 bg-gray-800 hover:bg-gray-700 text-sm sm:text-base text-white px-4 py-2 rounded-lg transition-colors duration-200 font-medium cursor-pointer "
                 onClick={handleAddTodoClick}
               >
-                <Plus size={20} /> Add Task
+                <Plus size={20} /> Add Todo
               </button>
               {/* Mark All Completed / Clear Button */}
               {stats.total > 0 && (
