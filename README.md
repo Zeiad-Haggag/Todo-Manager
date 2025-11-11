@@ -1,16 +1,52 @@
-# React + Vite
+# 📝 ToDo Manager (React + Redux + Tailwind)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive, and state-managed **ToDo Management App** built using  
+**React.js**, **Redux Toolkit**, **Tailwind CSS**, and **Framer Motion**.  
+It helps you organize tasks efficiently with a smooth, elegant, and interactive experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- ✅ **Add Tasks Instantly** — Add new tasks with a clean form interface.  
+- 🔄 **Real-time State Management** — All data handled via **Redux Toolkit** for predictable state updates.  
+- 🧠 **Smart Filtering** — Filter tasks by **All / Active / Completed** dynamically.  
+- 📊 **Statistics Overview** — Visual progress bar showing completion percentage.  
+- 🗑️ **Clear Completed / Mark All Completed** — Manage todos in bulk with one click.  
+- 🧍‍♂️ **Team Integration** — Each team has its own color and list of todos.  
+- 🎨 **Beautiful & Responsive UI** — Fully responsive layout using **Tailwind CSS**.  
+- ⚡ **Fast & Lightweight** — Powered by **Vite** and **Framer Motion** animations.  
+- 💾 **Persistent Data** — Todos remain saved using **LocalStorage** and Redux state persistence.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧩 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Technology | Description |
+|-------------|-------------|
+| **React.js (Vite)** | Front-end library for building UI components |
+| **Redux Toolkit** | State management for predictable and centralized logic |
+| **React Redux** | Official React bindings for Redux |
+| **Tailwind CSS** | Utility-first CSS framework for styling |
+| **Framer Motion** | Smooth and elegant animations |
+| **Lucide React** | Clean, modern SVG icons |
+| **LocalStorage API** | Stores todos persistently between sessions |
+
+---
+
+## ⚙️ Installation & Setup
+
+Run this project locally in a few simple steps 👇
+
+```bash
+# 1️⃣ Clone the repository
+git clone https://github.com/your-username/todo-manager.git
+
+# 2️⃣ Navigate to the project folder
+cd todo-manager
+
+# 3️⃣ Install dependencies
+npm install
+
+# 4️⃣ Run the development server
+npm run dev
